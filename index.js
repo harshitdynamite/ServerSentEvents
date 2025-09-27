@@ -1,3 +1,9 @@
+/*
+Client code:
+var sse = new EventSource("http://localhost:8080/stream");
+sse.onmessage = console.log;
+*/
+
 const app = require("express")();
 
 app.get("/", (req, res) => {
